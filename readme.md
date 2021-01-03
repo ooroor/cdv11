@@ -9,9 +9,13 @@
 
 ### Usage
 ```
-final Fnr fnr = new Fnr("21042221454");
+try {
+    final Fnr fnr = new Fnr("21042221454");
+} catch (Cdv11StringFormatException | DateBasedCdv11StringFormatException e) {
+    log.error(e.toString());
+}
 ```
-```
+```     
 try {
     final Fnr fnr = new Fnr("21042221455");
 } catch (Cdv11StringFormatException | DateBasedCdv11StringFormatException e) {
@@ -20,9 +24,10 @@ try {
 ```
 ### Future enhancements
 - Random generation
-- Create from localDate and counter
+- Introduction of sex
 ### Writing your own code
 
 ### Useful commands
-- ```mvn versions:display-dependency-updates``` 
+- ```mvn clean install``` 
+- ```mvn versions:display-dependency-updates```
 # Refs:

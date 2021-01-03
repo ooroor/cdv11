@@ -16,15 +16,16 @@ public class App {
 
     private void run() {
 
-        Fnr fnr;
         try {
-            fnr = new Fnr("21042221454");
-        } catch (Cdv11StringFormatException e) {
-            e.printStackTrace();
-            fnr = null;
-        } catch (DateBasedCdv11StringFormatException e) {
-            e.printStackTrace();
-            fnr = null;
+            final Fnr fnr = new Fnr("21042221454");
+        } catch (Cdv11StringFormatException | DateBasedCdv11StringFormatException e) {
+            log.error(e.toString());
+        }
+
+        try {
+            final Fnr fnr = new Fnr("21042221455");
+        } catch (Cdv11StringFormatException | DateBasedCdv11StringFormatException e) {
+            log.error(e.toString());
         }
     }
 }
