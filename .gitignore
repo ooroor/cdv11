@@ -1,0 +1,22 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+bin
+/dependency-reduced-pom.xml
+/.apt_generated/
+/.checkstyle
+/.flattened-pom.xml
+/.idea/
