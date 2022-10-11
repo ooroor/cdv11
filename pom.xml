@@ -12,29 +12,28 @@
   <url>https://github.com/ooroor/lombokWithValidations</url>
 
   <properties>
-    <assertj.version>3.18.1</assertj.version>
-    <commons-lang3.version>3.11</commons-lang3.version>
+    <assertj.version>3.23.1</assertj.version>
+    <commons-lang3.version>3.12.0</commons-lang3.version>
     <commons-validator.version>1.7</commons-validator.version>
-    <java.compilation.version>13</java.compilation.version>
-    <junit-platform-commons.version>1.7.0</junit-platform-commons.version>
-    <junit.jupiter.version>5.7.0</junit.jupiter.version>
-    <junit.pre.jupiter.version>4.13.1</junit.pre.jupiter.version>
-    <logback.version> 1.3.0-alpha5</logback.version>
-    <lombok.version>1.18.16</lombok.version>
+    <java.compilation.version>19</java.compilation.version>
+    <junit-platform-commons.version>1.9.1</junit-platform-commons.version>
+    <junit.jupiter.version>5.9.1</junit.jupiter.version>
+    <junit.pre.jupiter.version>4.13.2</junit.pre.jupiter.version>
+    <logback.version>1.4.4</logback.version>
+    <lombok.version>1.18.24</lombok.version>
     <maven-clean-plugin.version>3.1.0</maven-clean-plugin.version>
-    <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-    <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+    <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
     <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
     <maven-install-plugin.version>2.5.2</maven-install-plugin.version>
-    <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
+    <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
     <maven-project-info-reports-plugin.version>3.0.0</maven-project-info-reports-plugin.version>
     <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
     <maven-site-plugin.version>3.7.1</maven-site-plugin.version>
     <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
-    <maven.compiler.source>14</maven.compiler.source>
-    <maven.compiler.target>14</maven.compiler.target>
+    <maven.compiler.source>19</maven.compiler.source>
+    <maven.compiler.target>19</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <slf4j-api.version>2.0.0-alpha1</slf4j-api.version>
+    <slf4j-api.version>2.0.3</slf4j-api.version>
     <validation-api.version>2.0.1.Final</validation-api.version>
   </properties>
 
